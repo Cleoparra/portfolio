@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>Dot Racer</title>
+<meta charset='utf-8' >
+</head>
+<body>
+<h2>Online Dot Racer</h2>
+<p>
+Two dots race to the finish! 
+<br><br>Enter the race length.
+<br><br>Each time the user clicks the button, each dot advances a random amount (1, 2, or 3 steps).
+<br><br>When a dot crosses the finish line, display the winner.
+</p>
+<p>
+Race Length: 
+<input type="text" id="lengthBox" size="12">
+</p>   
+
+<p style="color:red;">
+Red Dot: <span id="redSpan"></span>
+</p>
+
+<p style="color: blue;">
+Blue Dot: <span id="blueSpan"></span>
+</p>
+
+<input type="button" value="Take a Step" id="bttn1"> 
+<hr>
+<input type="button" value="New Race" id="newRace">
+
+<script src="../js/random.js"></script>
+<script src="../js/selector.js"></script>
+<script src="../js/dotRace3.js"></script>
+</body>
+</html>

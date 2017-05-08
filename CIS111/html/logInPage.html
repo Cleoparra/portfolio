@@ -1,0 +1,103 @@
+<html lang='en'>
+<head>
+	<meta charset='utf-8' >
+	<title> Log In </title>
+</head>
+
+<body>
+
+<div id = 'school'>
+	Welcome to Ruse University
+</div>
+
+<div id = 'about'>
+	At Ruse University, we pride ourselves in getting college students a minor in what they are best at. 
+	Based out of their mother's basement, the creators of Ruse University give you the ability to earn a minor by only taking TWO classes from the comfort of your own dorm.
+
+</div>
+
+
+<div id= "wrapper">
+
+	<div id= "apply">
+		<div id = 'login'>
+			Please fill out form below to apply: 
+		</div>
+		
+		<div class = 'text'>
+			First Name: 
+		</div>
+
+		<input class = 'textinput' id = 'nameReg' type = "text" placeholder = "First Name"><br>
+			
+		<div class = 'text'>
+			Last Name: 
+		</div>
+
+		<input class = 'textinput' id = 'userNameReg' type = "text" placeholder = "Last Name"><br>
+
+		<div class = 'text'>
+			Fav. Animal: 
+		</div>
+			
+		<input class = 'textinput' id = 'passwordReg'type = "text" placeholder = "Animal"><br>
+		
+		<div class = 'button' id = 'enter'>
+			Enter 
+		</div>
+
+		<div class = 'button' id = 'next'>
+			Next 
+		</div>
+
+	</div>
+
+	<div id= "ruse">
+
+	</div>
+</div>
+
+<div id = 'video'>
+	<div id = 'aboutRuse'>
+		About Ruse University: 
+	</div>
+	
+	<video id="myVideo" width="320" height="240" poster="../images/ruseUniversity.jpg" preload='auto'>
+		<source src="../images/finalproject.mov"/>
+		<source src="../images/finalproject.mp4"/>
+		Your browser does not support the video tag.
+	</video>
+	<br>
+	<div class = 'videoButton' id = 'play'>
+			Play 
+	</div>
+	
+    <div class = 'videoButton' id = 'pause'>
+			Pause 
+	</div>
+
+	<div class = 'videoButton' id = 'rewind'>
+			Rewind 
+	</div>
+
+	<div class = 'videoButton' id = 'fullScreen'>
+			Fullscreen 
+	</div>
+
+	<div class = 'videoButton' id = 'volume'>
+			<div class="Vcontrol" id="decV">-</div>
+			<div class="Vcontrol" id="incV">+</div> 
+			Volume
+	</div>
+
+	<progress id='progressBar' max='100' value='0'><span>0</span>% played</progress>
+
+</div>
+
+	<script src="../js/logInPagereg.js"></script>
+	<script src="../js/logInPagelog.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/logInPage.css">
+<br><br>
+</body>
+</html>
+

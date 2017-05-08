@@ -1,0 +1,73 @@
+head {
+Text-align: center;
+}
+body {
+  text-align: center;
+  background: url("../images/areaTriangle1.png");
+  background-repeat: yes; 
+  background-size: auto;
+  background-position: center;
+  color: black; 
+  font-family: helvetica;
+}
+.nav ul {
+list-style: none;
+background-color: #444;
+text-align: center;
+padding: 0;
+margin: 0;
+}
+.nav li {
+font-family: helvetica;
+font-size: 1.2em;
+line-height: 40px;
+height: 40px;
+}
+ 
+.nav a {
+text-decoration: none;
+color: #fff;
+display: block;
+}
+ 
+.nav a:hover {
+background-color: #660033;
+}
+ 
+.nav a:active {
+background-color: #fff;
+color: #444;
+}
+ 
+@media screen and (min-width: 600px) {
+.nav li {
+width: 120px;
+border-bottom: none;
+height: 50px;
+line-height: 50px;
+font-size: 20px;
+}
+ .nav li {
+display: inline-block;
+margin-right: -4px;
+}
+
+p {
+  font-size: 22px;
+}
+input {
+  border:30px;
+  border-color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+input{type="buton";
+  background: black;
+  color: white;
+}
+#example {
+ background-color: rgba(0,0,0,0.75);  
+ color:#fff; 
+ margin: 70px; 
+ padding:30px;
+}

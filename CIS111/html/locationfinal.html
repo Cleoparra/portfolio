@@ -1,0 +1,58 @@
+<html lang='en'>
+<head>
+	<meta charset='utf-8' >
+	<title> Location </title>
+</head>
+
+<body>
+
+<div id = 'school'>
+	Ruse University
+</div>
+
+<div id= "wrapper">
+	<div id= "map">
+		<canvas id="myCanvas" width="500" height="400" ondrop="drop(event)" ondragover="allowDrop(event)">
+		Your browser does not support the HTML5 canvas tag.</canvas> 
+	</div>
+
+
+
+	<div id= "toolbar">
+		<div class = 'text'>
+			To start click the buttons in oreder. 
+		</div>
+
+		<div class = 'inputs' id= "start">
+			Start
+		</div>
+
+		<div class = 'inputs' id ='next'>
+			Wanna Play?
+		</div>
+
+		<div class = 'inputs' id ='maplocation'>
+			You are...
+		</div>
+		
+		<div class = 'inputs' id ='right'>
+			Click if I was right.
+		</div>
+
+		<div id ='ohyeah'>
+			<span id='payup'></span>
+		</div>
+
+		<div class = 'inputs' id ='nextPage'>
+			Next
+		</div>
+
+	</div>
+
+</div>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="../js/locationfinal.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/locationfinal.css">
+</body>
+</html>
+

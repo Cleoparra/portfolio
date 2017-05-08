@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Image02</title>
+    <meta charset="utf-8">
+    <script src="../js/images02.js"></script>
+</head>
+<body>
+<h1>Welcome to the Image List Generator!</h1>
+<p>Below displays a Image List.</p>
+<hr>
+
+    <table>
+        <tr>
+            <td>Image URL:</td>
+            <td><input type="text" id="titleTextInput" length="20" /></td>
+        </tr>
+        <tr>
+            <td>Caption:</td>
+            <td><input type="text" id="captionTextInput" length="20" /></td>
+        </tr>
+    </table>
+    
+    <input type="button" id="addButton" value="Add Image" />
+    <input type="button" id="suggestButton" value="Random Image" />
+    <input type="button" id="clearButton" value="Next Image" />
+    
+    <hr />
+    
+    <div id="pictureListDiv"> </div>
+
+    <div id="suggestPictureDiv"></div>
+
+    <div id="nextPictureDiv"> </div>   
+
+    <select id="selectimage" required>
+        <option value="">None</option>
+    </select>     
+    
+</body>
+</html>

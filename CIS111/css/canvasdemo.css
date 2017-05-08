@@ -1,0 +1,153 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: sans-serif;
+
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+body {
+  text-align: center;
+  background: url("../images/diagonal_striped_brick_@2X.png");
+  background-repeat: repeat; 
+  background-size: auto;
+  background-position: center;
+  color: black; 
+ }
+
+#school{
+	position: center;
+	overflow:hidden;
+	text-align: center;
+	background-color: rgba(1,1,1,0.8);
+	border: 3px solid #d3d3d3;
+	border: 15px;
+	border-radius: 10px;
+	box-shadow: inset 0px 1px 0px rgba(255, 255 , 255, 0.5), 0px 2px 2px rgba(0, 0 , 0, 0.5) ;
+	border-radius: 10px;
+	font-size: 50px;
+	color:#FFFFFF; 
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#wrapper{
+	margin-left: auto ;
+	margin-right: auto ;
+	width: 966px;
+    height: 500px;
+	border: 3px solid #d3d3d3;
+	overflow:hidden;
+	background-color: rgba(1,1,1,0.5);
+}
+
+#canvasDiv{
+	float:left;
+	overflow:hidden;
+	background-color: rgba(1,1,1,0.5);
+	border: 3px solid #d3d3d3;
+	color:#FFFFFF; 
+	margin: 0px; 
+	padding:30px;
+	width: 600px;
+    height: 500px;
+}
+
+#myCanvas{
+	border:5px
+	solid #d3d3d3;
+	background-color: #FFFFFF;
+}
+
+#toolbar{
+	float:left;
+	overflow:hidden;
+	background-color: rgba(1,1,1,0.5);  
+	color:#FFFFFF; 
+    width: 360px;
+    height: 500px;
+    padding: 10px;
+    border: 3px solid #d3d3d3;
+}
+
+h2{
+	margin-bottom: 10px;
+}
+
+
+.radcontrol{
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-color: #4f4f4f;
+	border-radius: 15px;
+	box-shadow: inset 0px 1px 0px rgba(255, 255 , 255, 0.5), 0px 2px 2px rgba(0, 0 , 0, 0.5) ;
+	display: inline-block;
+	text-align: center;
+	margin: 3px;
+}
+
+.radcontrol:hover{
+	border: 2px solid white;
+	box-shadow: inset 0px 1px 2px rgba(0, 0 , 0, 0.5);
+}
+
+#rad{
+	float: left;
+}
+
+#colors{
+	float: right;
+	margin-bottom: 10px;
+}
+
+.swatch{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	box-shadow: inset 0px 1px 0px rgba(255, 255 , 255, 0.5), 0px 2px 2px rgba(0, 0 , 0, 0.5) ;
+	display: inline-block;
+	margin: 3px;
+}
+
+.swatch.active{
+	border: 2px solid white;
+	box-shadow: inset 0px 1px 2px rgba(0, 0 , 0, 0.5);
+}
+
+.inputs{
+	float: left;
+	margin-right: 20px; 
+	height: 30px;
+	padding: 8px;
+	text-align: center;
+	background-color: #4f4f4f;
+	border: 15px;
+	box-shadow: inset 0px 1px 0px rgba(255, 255 , 255, 0.5), 0px 2px 2px rgba(0, 0 , 0, 0.5) ;
+}
+
+.inputs:hover{
+	background-color: #818181;
+	border: 2px solid white;
+	box-shadow: inset 0px 1px 2px rgba(0, 0 , 0, 0.5);
+}
+
+.animals{
+	float: left;
+	text-align: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	box-shadow: inset 0px 1px 0px rgba(255, 255 , 255, 0.5), 0px 2px 2px rgba(0, 0 , 0, 0.5) ;
+	display: inline-block;
+	margin: 3px;
+}
+
+.animals:hover{
+	border: 2px solid white;
+	box-shadow: inset 0px 1px 2px rgba(0, 0 , 0, 0.5);
+}

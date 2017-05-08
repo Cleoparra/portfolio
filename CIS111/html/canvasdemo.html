@@ -1,0 +1,68 @@
+<html lang='en'>
+<head>
+	<meta charset='utf-8' >
+	<title>Canvas</title>
+</head>
+
+<body>
+
+<div id = 'school'>
+	Ruse University
+</div>
+
+<div id= "wrapper">
+	<div id= "canvasDiv">
+		<canvas id="myCanvas" width="500" height="400" ondrop="drop(event)" ondragover="allowDrop(event)">
+		Your browser does not support the HTML5 canvas tag.</canvas>
+	</div>
+
+
+	<div id= "toolbar">
+		<div id= "colors">
+			<h2>Colors:</h2>
+		</div>
+
+		<div id= "image">
+			<h2>Backgrounds:</h2>
+			<input class="animals" id="cat" type="image" name="submit" value="submit" src="../images/cat.gif" width="25" height="25"/>
+			<input class="animals" id="dog" type="image" name="submit" value="submit" src="../images/dog.gif" width="25" height="25"/>
+			<input class="animals" id="turtle" type="image" name="submit" value="submit" src="../images/turtle.gif" width="25" height="25"/>
+			<input class="animals" id="elephants" type="image" name="submit" value="submit" src="../images/elephants.gif" width="25" height="25"/>
+			<input class="animals" id="kolaha" type="image" name="submit" value="submit" src="../images/kolaha.gif" width="25" height="25"/>
+			<input class="animals" id="bunny" type="image" name="submit" value="submit" src="../images/bunny.gif" width="25" height="25"/>
+			<input class="animals" id="duck" type="image" name="submit" value="submit" src="../images/duck.gif" width="25" height="25"/>
+			<input class="animals" id="random" type="image" name="submit" value="submit" src="../images/question.png" width="25" height="25"/>
+		</div>
+
+		<div id="rad">
+			<h2>Brush Size:</h2>
+			<div id="decrad" class="radcontrol">-</div>
+			<div id="incrad" class="radcontrol">+</div>
+			Radius <span id="redval">10</span>
+		</div>
+		
+		<br><br><br><br><br><br><br><br>
+
+		<div class = 'inputs' id= "clear">
+			Clear
+		</div>
+
+		<div class = 'inputs' id= "save">
+			Save
+		</div>
+
+		<div class = 'inputs' id = 'locationpage'>
+			Next Page
+		</div>
+
+	</div>
+</div>
+	<script src="../js/canvasdemo.js"></script>
+	<script src="../js/radiusdemo.js"></script>
+	<script src="../js/colordemo.js"></script>
+	<script src="../js/shapedemo.js"></script>
+	<script src="../js/savedemo.js"></script>
+	<script src="../js/cleardemo.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/canvasdemo.css">
+</body>
+</html>

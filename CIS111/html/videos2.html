@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>videos2</title>
+    <meta charset="utf-8">
+    <script src="../js/videos2.js"></script>
+
+<style>
+body {
+	background: url("../images/tv.jpg");
+	background-size: 520px 680px;
+	background-position: 5px 220px;
+	background-repeat: no-repeat;
+	}
+
+	#videoListDiv {
+	padding-top: 50px;
+	padding-left: 61px;
+	}
+
+	#suggestVideoDiv {
+	padding-top: 100px;
+	padding-left: 61px;
+	}
+	</style>
+
+	</head>
+	<body>
+	<h1>Welcome to the Video List Generator!</h1>
+	<p>Below displays a Video List.</p>
+	<hr>
+
+	<p>Video:</p>
+	<input type="text" id="titleTextInput" length="20" />
+	    
+	    <input type="button" id="addButton" value="Add Video" />
+	    <input type="button" id="suggestButton" value="Random Video" />
+
+	    
+	    <hr />
+
+	    
+	<div id="videoListDiv"> </div>
+
+	<div id="suggestVideoDiv"></div>
+
+	<br><br><br><br>
+</body>
+</html>
